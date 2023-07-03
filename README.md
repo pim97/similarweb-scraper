@@ -4,21 +4,21 @@
 
 ## Description
 
-ProBot is a highly customizable multipurpose bot for Discord servers. It offers features like customizable welcome images, advanced auto-moderation, auto-responses, anti-raid protection, multilingual support, and more. With a 99.99% uptime, ProBot ensures a stable presence. It also provides a leveling system, moderation commands, and self-assignable roles. Join the 8.8 million servers using ProBot and enhance your Discord server experience.
+Scrappey.com Scraper is a powerful tool for extracting data from SimilarWeb.com. It allows you to scrape various website metrics such as traffic data, audience insights, referral sources, and more. By leveraging the scraping capabilities, you can gather valuable information about your competitors, analyze market trends, and make informed business decisions.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/pim97/probot.io-daily-claimer.git`
+1. Clone the repository: `git clone https://github.com/pim97/similarweb-scraper.git`
 2. Install the dependencies: `npm install`
 
 ## Usage
 
 1. Replace the following details with your own details in the script file (`script.js`):
-   - SCRAPPEY_API_KEY: Your Scrappey API key
-   - AUTHORIZATION_HEADER_KEY: Your authorization header key from probot.io
-   - CAPSOLVER_API_KEY: Your CapSolver API key
-   - PROXY: Your proxy information
-2. Run the script: `node script.js`
+   - SCRAPPEY_API_KEY: Your Scrappey.com API key
+   - PROXY: Your proxy information (if applicable, can be left empty, scrappey will set a residential IP)
+2. Update the script to specify the target website or list of websites you want to scrape.
+3. Customize the scraping parameters according to your requirements, such as the metrics to extract, time range, etc.
+4. Run the script: `node script.js`
 
 ## Contributing
 
@@ -30,5 +30,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-- Author: Pim97
+- Author: Your Name
 - GitHub: [Your GitHub Profile](https://github.com/pim97/)
