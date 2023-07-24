@@ -68,7 +68,7 @@ function extractData(html) {
 async function run() {
     try {
         const sessionRequest = await scrappey.createSession();
-        session = sessionRequest.session;
+        const session = sessionRequest.session;
 
         console.log('Created Session:', session);
 
